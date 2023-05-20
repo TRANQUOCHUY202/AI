@@ -1,0 +1,101 @@
+
+{
+"intents": [
+{
+"context": "",
+"patterns": ["ai là người tạo ra bạn", "bạn được ai tạo ra"],
+"responses": ["Trần Quốc Huy là người tạo ra tôi", "tôi được tạo ra bởi Trần Quốc Huy "],
+"tag": "nguồn gốc"
+},
+{
+"context": "",
+"patterns": ["bạn là ai ", "bạn tên gì"],
+"responses": ["tôi là Chatbot  ", "tên tôi là Chatbot"],
+"tag": "ai "
+},
+{
+"context": "",
+"patterns": ["chức năng của bạn là gì ", "bạn được tạo ra với mục đích gì"],
+"responses": ["tôi được tạo ra để trả lời các thông tin cơ bản về người tạo ra tôi  ", "giúp cho bạn có thêm thông tin về người tạo ra tôi"],
+"tag": "chức năng"
+},
+{
+"context": "",
+"patterns": ["người đó sinh ra ở đâu ", "nơi sinh của Trần Quốc Huy", "Huy snh ra ở đâu"],
+"responses": ["người đó được sinh ra ở Phú Yên.", "Huy được sinh ra ở Phú Yên"],
+"tag": "nơi sinh"
+},
+{
+"context": "",
+"patterns": ["Huy là người như thế nào ", "tính cách của Huy", "Huy có tính cách gì"],
+"responses": ["Huy là người hòa đồng, vui vẻ  ", "hòa đông, vui vẻ là tính cách của Huy "],
+"tag": "tính cách "
+},
+{
+"context": "",
+"patterns": ["huy thích ăn gì nhất ", "món ăn Huy thích nhất là gì "],
+"responses": ["Món ăn mà Huy thích nhất là mắt cá ngừ đại dương ", "tôm hùm là món Huy thích nhất"],
+"tag": "món ăn"
+},
+{
+"context": "",
+"patterns": ["quê của Huy ở đâu ", "quê quán của Huy là ở đâu", "Huy có quê ở đâu"],
+"responses": ["Huy sinh ra và lớn lên ở Phú Yên ", "Quê của Huy là ở tp. Tuy Hòa, Phú Yên"],
+"tag": "quê quán"
+},
+{
+"context": "",
+"patterns": ["người đó sinh vào ngày bao nhiêu", "Huy được sinh ra vào năm nào "],
+"responses": ["Huy sinh vào ngày 25/06/2002", "ngày 25/06/2002 là ngày Huy được sinh ra "],
+"tag": "ngày sinh"
+},
+{
+"context": "",
+"patterns": ["Huy hiện tại đang làm gì", "người đó đang học ở đâu", "Huy đang học ở trường nào"],
+"responses": ["Huy hiện tại là sinh viên trường đại học SPKT TP.HCM", "Trường đại học SPKT TP.HCM là nơi Huy đang theo học "],
+"tag": "trường"
+},
+{
+"context": "",
+"patterns": ["Huy có những sở thích gì", "sở thích của Huy là gì ","người đó có sở thích gì" ],
+"responses": ["Huy có sở thích là chơi thể thao.", "sở thích của Huy là chơi thể thao"],
+"tag": "sở thích"
+},
+{
+"context": "",
+"patterns": ["môn thể thao nào Huy yêu thích nhất ", "Huy yêu thích môn thể thao nào nhất","Huy thích chơi môn thể thao nào nhất"],
+"responses": ["bong đá là môn thể thao Huy yêu thích nhất", "Huy thích môn bóng đá nhất"],
+"tag": "yêu thích"
+},
+{
+"context": "",
+"patterns": ["chiều cao của Huy", "Huy cao bao nhiêu"],
+"responses": ["Huy cao 1m72 ", ""],
+"tag": "body"
+},
+{
+"context": "",
+"patterns": ["Hello", "Hi ", "What's up", "chào bạn"],
+"responses": ["chào bạn, rất vui khi được trò chuyện với bạn"],
+"tag": "hello"
+},
+{
+"context": "",
+"patterns": ["a","dsdf"],
+"responses": ["Sorry, can't understand you", "tôi không hiểu những gì bạn muốn nói"],
+"tag": "noanswer"
+},
+{
+"context": "",
+"patterns": ["Huy năm nay bao nhiêu tuổi", "tuổi của Huy là bao nhiêu"],
+"responses": ["Huy năm nay 21 tuổi","tính đến thời điểm hiện tại Huy đang 21 tuổi"],
+"tag": "age"
+},
+{
+"context": "",
+"patterns": ["Huy ghét gì nhất ", "cái gì huy ghét nhất", "Huy không tbhichs gì nhất"],
+"responses": ["Huy ghét chạy dealine nhất  ", " giả dối là cái Huy ghét nhất"],
+"tag": "ghét "
+}
+]
+}
